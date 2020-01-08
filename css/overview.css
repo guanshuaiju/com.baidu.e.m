@@ -1,0 +1,166 @@
+/* 1.顶部 */
+body {
+    background-color: #f9f9f9;
+}
+.top {
+    z-index: 1;
+    position: fixed;
+    top: calc(0rem/64);
+    left: calc(10rem/64);
+    overflow: hidden;
+    height: calc(100rem/64);
+    width: 100%;
+    background-color: #ffffff;
+}
+.top-zuo{
+    float: left;
+    margin: calc(15rem/64) ;
+}
+.top-you {
+    float: right;
+    margin: calc(20rem/64) ;
+}
+.top-you img {
+    height:calc(50rem/64) ;
+    width: calc(55rem/64);
+}
+
+/* 2.搜索广告 */
+.seek {
+    margin-top:calc(-2rem/64);
+    padding: 0 calc(20rem/64);
+}
+.seek-txt {
+    position: relative;
+    left: calc(0rem/64);
+    bottom: calc(-220rem/64);
+    padding: 0 calc(5rem/64);
+}
+.one {
+    margin-top: calc(115rem/64);
+    
+}
+.seek-one {
+    height: calc(430rem/64);  
+    background: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/ggtype-img2.jpg);
+    background-size: cover;
+}
+.one .seek-one{
+    background-image: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/ggtype-img1.jpg);
+}
+  
+.seek-one h1, .seek-one p a {
+    margin-left: calc(20rem/64);
+}
+
+.seek-one h1 {
+    color: #ffffff;
+    font-size: calc(45rem/64);
+    margin-bottom: calc(10rem/64);
+}
+.seek-one p a {
+    margin-top: calc(40rem/64);
+    display: inline-block;
+    /* width: calc(500rem/64); */
+    color: #ffffff; 
+    font-size: calc(22rem/64);
+}
+.seek-txt-title{
+    overflow: hidden;
+}
+.seek-txt-lift{
+    float: left;
+}
+.seek-txt-right {
+    margin-top: calc(20rem/64);
+    /* margin-bottom: calc(80rem/64); */
+    float: right;
+    width: calc(70rem/64);
+    height: calc(35rem/64);
+    margin-right: calc(20rem/64);
+    /* background-color: black; */
+    background: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/arrow_right_white.svg) no-repeat;
+}
+/* 3.开屏广告 */
+.advertising {
+
+margin: 0 calc(20rem/64);
+box-sizing: border-box;
+margin-top: calc(40rem/64);
+border: 1px solid #e7e7e7;
+}
+.advertising img{
+    width: 100%;
+}
+.advertising-text{
+    background-color: #fff;
+    padding: 0 calc(20rem/64);
+    box-sizing: border-box;
+    margin-top: -2px;
+    padding-bottom: calc(40rem/64);
+    
+}
+.advertising-text-title{
+    overflow: hidden;
+    
+    padding: calc(20rem/64) 0;
+}
+.advertising-text-title div{
+    background-image: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/arrow_right.svg);
+    float: right;
+}
+.advertising-text-title h1{
+    height: 100px;
+    color: #000;
+    font-size: calc(45rem/64);
+    margin-bottom: calc(10rem/64);
+    float: left;
+}
+.advertising-text a{
+    color: #87878a;
+    font-size: calc(22rem/64);
+}
+    /* 4.底部 */
+
+.pay-one-biankuang {
+    margin-top: calc(40rem/64);
+    margin-left: calc(20rem/64);
+    width: calc(590rem/64);
+    height: calc(70rem/64);
+    border: 1px solid #3388ff;
+    background-color: #3388ff;
+    text-align: center;
+}
+.pay-one-biankuang a {
+    color: seashell;
+    line-height: calc(70rem/64);
+}
+.jiewei {
+    padding: 0 calc(20rem/64);
+    text-align: center;
+    height: calc(260rem/64);
+    background-color: black;
+}
+.jiewei p {
+    line-height: calc(30rem/64);
+    margin-top: calc(40rem/64);
+    padding-top: calc(50rem/64);
+    font-size: calc(20rem/64);
+    color: #7f7f7f;
+}
+
+
+
+
+.dibu-ding {
+    float: left;
+    width: calc(140rem/64);
+    height: calc(50rem/64);
+    background: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/iconTop.svg?v=3) no-repeat;
+    background-position: calc(7rem/64) calc(-2rem/64);
+    background-size:0.8rem ;
+}
+.dibu-ding a {
+    float: left;
+    margin-top: calc(40rem/64);
+}

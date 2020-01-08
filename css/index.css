@@ -1,0 +1,465 @@
+/* 1.顶部 */
+.top {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    left: calc(0rem/64);
+    top: calc(0rem/64);
+    background-color:#ffffff;
+    height: calc(105rem/64);
+}
+.top-zuo {
+    float: left;
+    margin-left: calc(30rem/64);
+    margin-top: calc(28rem/64);
+}
+.top-you img {
+    float: right;
+    margin-right: calc(10rem/64);
+    margin-top: calc(25rem/64);
+}
+/* 2.轮播图 */
+.carousel {
+    text-align: center;   
+}
+.carousel img {
+    margin-top: calc(115rem/64);
+    height: calc(320rem/64);
+    width: 100%;
+}
+.carousel-txt {
+    text-align: left;
+    padding: 0 calc(20rem/64);
+
+}
+.carousel> span {
+    font-weight: bolder;
+    display: inline-block;
+    font-size: calc(40rem/64);
+    margin:calc(50rem/64) 0;
+}
+.carousel-txt  span {
+    color: #999999;
+    display: inline-block;
+    font-size: calc(26rem/64);
+}
+.carousel-experience {
+    margin: 0 calc(60rem/64);
+    margin-top: calc(60rem/64);
+    margin-bottom: calc(30rem/64);
+    box-sizing: border-box;
+    border-radius: calc(10rem/64);
+    border: calc(1rem/64) solid #3388ff;
+    background-color: #3388ff;
+    height: calc(66rem/64);
+    width: calc(506rem/64);
+}
+.carousel-experience a {
+    line-height: calc(66rem/64);
+    color: #ffffff;
+}
+/* 3.正在使用推广 */
+.generalize {
+    height: calc(120rem/64);
+    background-color: #f7f7f8;
+}
+.generalize span {
+    font-weight: bolder;
+    float: left;
+    font-size: calc(30rem/64);
+    margin-left: calc(100rem/64);
+    line-height: calc(120rem/64);
+}
+.generalize .generalize-one{
+    float: left;
+    margin-left: calc(0rem/64);
+    font-size: calc(25rem/64);
+}
+/* 4.选择百度的理由 */
+.reason {
+    padding: 0 calc(40rem/64);
+    /* text-align: center; */
+}
+.reason h2 {
+    font-weight: bolder;
+    font-size: calc(50rem/64);
+    margin: calc(100rem/64) calc(54rem/64);
+}
+.reason-one {
+    font-size: calc(50rem/64);
+    margin-left: calc(20rem/64);
+    color: #c1c1c1;
+}
+.reason-two {
+    font-weight: bolder;
+    font-size: calc(37rem/64);
+}
+.reason p {
+    margin-top: calc(50rem/64);
+    color: #c1c1c1;
+    font-weight: bolder;
+    font-size: calc(25rem/64);
+}
+.reason-yi {
+    height: calc(260rem/64);
+    width: calc(535rem/64);
+}
+.reason-er {
+    margin-top: calc(50rem/64);
+    margin-left: calc(150rem/64);
+    height: calc(35rem/64);
+    width: calc(35rem/64);
+}
+.reason-liaojie {
+    display: inline-block;
+    margin-bottom: calc(80rem/64);
+    margin-left: calc(5rem/64);
+    font-size: calc(30rem/64);
+}
+.reason-tiyan {
+    margin: 0 calc(30rem/64);
+    margin-top: calc(60rem/64);
+    margin-bottom: calc(50rem/64);
+    box-sizing: border-box;
+    border-radius: calc(10rem/64);
+    border: calc(1rem/64) solid #3388ff;
+    background-color: #3388ff;
+    height: calc(66rem/64);
+    width: calc(506rem/64);
+}
+.reason-tiyan a{
+    margin-left: calc(210rem/64);
+    font-size: calc(25rem/64);
+    line-height: calc(66rem/64);
+    color: #ffffff;
+}
+/* 5.商业目标 */
+.business {
+    overflow: hidden;
+    padding: 0 calc(40rem/64);
+    padding-top:calc(110rem/64);
+    height: calc(1425rem/64);
+    background-color: #5c6369;
+    position: relative;
+
+}
+.business-announce{
+    overflow: hidden;
+}
+.business h1 {
+   padding-left: calc(80rem/64);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: calc(50rem/64);
+}
+.business-Acquisition a,
+.business-announce a {
+    padding-top:calc(50rem/64);
+    padding-left:calc(100rem/64);
+    float: left;
+    color: #ffffff;
+    font-size: calc(25rem/64);
+}
+.business-announce a     {
+    padding-left: calc(160rem/64);
+    color: #7f8283;
+}
+
+.business-bian {
+    float: left;
+    width: 155px;
+    border: 1px solid #ffffff;
+    margin-top: calc(20rem/64);
+}
+.biankuang-one {
+    float: left;
+    width: 155px;
+    border: 1px solid #777b7f;
+    margin-top: calc(20rem/64);
+}
+.business-bg img {
+    margin-top: calc(20rem/64);
+    height: calc(430rem/64);
+    width: calc(550rem/64);
+}
+.business-bg h3 {
+    margin-top: calc(30rem/64);
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    font-size: calc(40rem/64);
+}
+.business-bg p {
+    margin-top: calc(20rem/64);
+    font-size: calc(24rem/64);
+    color: #999999;
+}
+.business-xiaofei {
+    margin-top: calc(250rem/64);
+    border: 1px solid #60686e;
+}
+.business-heng {
+    height: calc(365rem/64);
+    border: 1px solid #60686e;
+ 
+    position: absolute;
+    top: 590px;
+    left: 180px;
+}
+.nianzong-one {
+    margin-left: calc(65rem/64);
+    margin-top: calc(120rem/64);
+    float: left;
+}
+.nianzong-two{
+    margin-left: calc(115rem/64);
+    margin-top: calc(120rem/64);
+    float: left;
+}
+.nianzong-three {
+    margin-left: calc(80rem/64);
+    margin-top: calc(40rem/64);
+    float: left;
+}
+.nianzong-for {
+    margin-left: calc(135rem/64);
+    margin-top: calc(35rem/64);
+    float: left;
+}
+.nianzong-one a ,.nianzong-two a ,.nianzong-three a,.nianzong-for a  {
+   color: #ffffff;
+    font-size: calc(60rem/64);
+}
+.nianzong-one h3 ,.nianzong-two h3 ,.nianzong-three h3,.nianzong-for h3 {
+    display: inline-block;
+    font-size: calc(30rem/64);
+    color: #ffffff;
+}
+.nianzong-one span {
+    margin-left: calc(30rem/64);
+    color: #999999;
+}
+.nianzong-three span {
+    margin-left: calc(15rem/64);
+    color: #999999;
+}
+.nianzong-two span,.nianzong-for span {
+    margin-left: calc(-10rem/64);
+    color: #999999;
+}
+
+.business-guanggao {
+    margin: 0 calc(30rem/64);
+    margin-top: calc(227rem/64);
+    border-radius: calc(10rem/64);
+    background-color: #3388ff;
+    height: calc(66rem/64);
+    width: calc(506rem/64);
+    line-height: calc(66rem/64);
+    text-align: center;
+}
+.business-guanggao a {
+    color: #ffffff;
+    font-size: calc(25rem/64);
+}
+
+/* 6.客户证言 */
+.testimony {
+    overflow: hidden;
+    padding:0  calc(20rem/64);
+    padding-top: calc(90rem/64);
+    height: calc(560rem/64);
+    background-color: #f7f7f8;
+    position:relative;
+}
+.testimony span {
+
+    margin-left: calc(170rem/64);
+    font-size: calc(60rem/64);
+    font-weight: 700;
+    color: #333333;
+}
+.testimony-lunbo {
+    margin-top: 50px;
+    height: calc(325rem/64);
+    background-color:#ffffff;
+}
+.testimony-lunbo img {
+    border-radius: 50%;
+    height: calc(100rem/64);
+    width: calc(100rem/64);
+    position: absolute;
+    left: calc(150px);
+    top: calc(110px);
+}
+.testimony-lunbo p {
+    padding: 40px 25px;
+    font-size: calc(30rem/64);
+    text-align: center; 
+}
+.testimony-lunbo h4 {
+    text-align: center;
+    font-size: calc(25rem/64);
+    color: #bcbcbc;
+}
+/* 7.实际效果付费 */
+.pay {
+
+    padding: 0 calc(40rem/64);
+    padding-top:calc(50rem/64);
+   
+}
+.pay-one h1 {
+    margin-left: calc(80rem/64);
+    font-size: calc(50rem/64);
+}
+.pay-one  p {
+    font-size: calc(25rem/64);
+    margin-top: calc(35rem/64);
+    color: #b2b1be;
+}
+.pay-one img {
+    width: calc(560rem/64);
+    height: calc(320rem/64);
+}
+.pay-one-icons  {
+    margin: calc(55rem/64) calc(120rem/64);
+}
+.pay-one span:nth-child(1) {
+    display: inline-block;
+    width: calc(130rem/64);
+    background: url(http://e.m.baidu.com/mebaidu/images/c-red2.svg)no-repeat;
+    background-position: calc(5rem/64) calc(7rem/64);
+    font-size: calc(25rem/64);
+    padding-left: calc(30rem/64);
+} 
+
+.pay-one span:nth-child(2) {
+    display: inline-block;
+    width: calc(130rem/64);
+    background: url(http://e.m.baidu.com/mebaidu/images/c-blue2.svg) no-repeat;
+    background-position: calc(2rem/64) calc(8rem/64);
+    font-size: calc(25rem/64);
+    padding-left: calc(23rem/64);
+}
+.pay-one-biankuang {
+    margin-left: calc(20rem/64);
+    border-radius: calc(10rem/64);
+    width: calc(486rem/64);
+    height: calc(70rem/64);
+    border: 1px solid #3388ff;
+    background-color: #3388ff;
+    text-align: center;
+}
+.pay-one-biankuang a {
+    color: seashell;
+    line-height: calc(70rem/64);
+}
+
+.pay-two h1 {
+    padding-top: calc(60rem/64);
+    padding-left:calc(90rem/64);
+    font-size: calc(30rem/64);
+}
+.pay-two-name input {
+    margin-top: calc(20rem/64);
+    height: calc(70rem/64);
+    width: calc(528rem/64);
+    padding-left: calc(20rem/64);
+    border: 0;
+    border-bottom: 1px solid #aeb7c5;
+}
+.pay-two-txt {
+    padding-top: calc(40rem/64);
+    margin-bottom: calc(50rem/64);
+}
+.pay-two-txt p {
+    font-size: calc(22rem/64);
+    color:  #aeb7c5;
+}
+
+.pay-three {
+    border-bottom: 1px solid #aeb7c5;
+    height: calc(45rem/64);
+}
+.pay-three-txt {
+    margin-top: calc(50rem/64);
+    text-align: center;
+    margin-bottom: calc(30rem/64);
+}
+.pay-three-txt span {
+    display: inline-block;
+    font-size: calc(30rem/64);
+    margin-bottom: calc(20rem/64);
+}
+.pay-three-txt h2 {
+    font-weight: 700;
+    padding-top: calc(10rem/64);
+    font-size: calc(20rem/64);
+}
+.pay-three-txt a {
+    font-size: calc(50rem/64);
+    font-weight: 700;
+    color: black;
+}
+/* 8.底部 */
+.jiewei {
+    padding: 0 calc(20rem/64);
+    text-align: center;
+    height: calc(100rem/64);
+    background-color: black;
+}
+.jiewei p {
+    margin-bottom: calc(158rem/64);
+    padding-top: calc(20rem/64);
+    font-size: calc(25rem/64);
+    color: #cccccc;
+}
+.zhuce {
+    float: left;
+    overflow: hidden;
+    height: calc(120rem/64);
+    background-color:#ffffff ;
+}
+.zhuce-zixun {
+    margin-top: calc(25rem/64);
+    margin-left: calc(50rem/64);
+    height: 70px;
+    width:85px;
+    background: url(http://e.m.baidu.com/mebaidu/images/iconPhone.svg) no-repeat left top;
+    background-size: 0.8rem;
+}
+.zhuce-zixun a {
+    font-size: calc(15rem/64);
+}
+.zhuce-mianfei {
+    float: left;
+    width: calc(246rem/64);
+    line-height: calc(116rem/64);
+    text-align: center;
+    height: calc(116rem/64);
+    border: 1px solid #3388ff;
+    background-color: #3388ff;
+    font-size: calc(30rem/64);
+}
+.zhuce-zixun a {
+    color: black;
+}
+.zhuce-mianfei a {
+    color: #ffffff;
+}
+.zuihou {
+    position: fixed;
+    left: carl(0rem/64);
+    bottom: calc(0rem/64);
+}
+.guding img {
+    position: fixed;
+    bottom: calc(150rem/64);
+    right: calc(20rem/64);
+    height: calc(80rem/64);
+    width: calc(80  rem/64);
+    background-color: #eff0f0;
+    border: 1px solid #aeb7c5;;
+    border-radius: 50%;
+}
