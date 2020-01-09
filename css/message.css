@@ -1,21 +1,22 @@
-/* 1.顶部 */
+/* 1.顶部
 body {
-    background-color: #f9f9f9;
-}
+    background-color:#f7f8fa;
+} */
 .top {
+    overflow: hidden;
     z-index: 1;
     position: fixed;
     top: calc(0rem/64);
-    left: calc(10rem/64);
     overflow: hidden;
     height: calc(100rem/64);
     width: 100%;
     background-color: #ffffff;
-    border-bottom: 2px solid #ececec;
+    border-bottom: 1px solid #ececec;
 }
 .top-zuo{
     float: left;
     margin: calc(15rem/64) ;
+    overflow: hidden;
 }
 .top-you {
     float: right;
@@ -25,107 +26,120 @@ body {
     height:calc(50rem/64) ;
     width: calc(55rem/64);
 }
-
-/* 2.搜索广告 */
-.seek {
-    margin-top:calc(-2rem/64);
+/* 2.什么是信息流广告 */
+.what {
     padding: 0 calc(20rem/64);
-}
-.seek-txt {
-    position: relative;
-    left: calc(0rem/64);
-    bottom: calc(-220rem/64);
-    padding: 0 calc(5rem/64);
-}
-.one {
-    margin-top: calc(115rem/64);
-    
-}
-.seek-one {
-    height: calc(430rem/64);  
-    background: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/ggtype-img2.jpg);
-    background-size: cover;
-}
-.one .seek-one{
-    background-image: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/ggtype-img1.jpg);
-}
-  
-.seek-one h1, .seek-one p a {
-    margin-left: calc(20rem/64);
-}
-
-.seek-one h1 {
-    color: #ffffff;
-    font-size: calc(45rem/64);
-    margin-bottom: calc(10rem/64);
-}
-.seek-one p a {
-    margin-top: calc(40rem/64);
-    display: inline-block;
-    /* width: calc(500rem/64); */
-    color: #ffffff; 
-    font-size: calc(22rem/64);
-}
-.seek-txt-title{
     overflow: hidden;
 }
-.seek-txt-lift{
-    float: left;
+.what-one img {
+    margin-top: calc(120rem/64);
+    width: calc(590rem/64);
 }
-.seek-txt-right {
+.what-txt h1 {
+    font-size: calc(40rem/64);
+    padding-top: calc(50rem/64);
+}
+.what-txt p {
+    padding-top: calc(50rem/64);
+    font-size: calc(23rem/64);
+}
+
+.what-yi {
+    float: left;
+    padding-top: calc(65rem/64);
+    padding-left: calc(30rem/64);
+}
+.what-yi span {
+    font-size: calc(32rem/64);
+    color: #4681fb;
+    margin-left: calc(55rem/64);
+}
+.what-yi b,.what-yi b ,.what-yi s {
+    color: #4681fb;
+
+}
+.what-yi a {
+    color: #87878A;
+}
+.waht-yonghu {
+    margin-left: calc(50rem/64);
+}
+/* 2.您的广告可以展示在 */
+.show {
+    padding: 0 calc(20rem/64);
+    background-color: #f9f9f9;
+}
+.show-one h1 {
+    padding-top: calc(50rem/64);
+    font-size: calc(35rem/64);
+    margin-left: calc(110rem/64);
+}
+.show-one img {
+    margin-top: calc(50rem/64);
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.show-two h2{
+    margin-top: calc(30rem/64);
+    font-size: calc(40rem/64);
+}
+.show-two  p{
     margin-top: calc(20rem/64);
-    /* margin-bottom: calc(80rem/64); */
-    float: right;
-    width: calc(70rem/64);
-    height: calc(35rem/64);
-    margin-right: calc(20rem/64);
-    /* background-color: black; */
-    background: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/arrow_right_white.svg) no-repeat;
+    font-size: calc(20rem/64);
 }
-/* 3.开屏广告 */
-.advertising {
-
-margin: 0 calc(20rem/64);
-box-sizing: border-box;
-margin-top: calc(40rem/64);
-border: 1px solid #e7e7e7;
-}
-.advertising img{
-    width: 100%;
-}
-.advertising-text{
-    background-color: #fff;
-    padding: 0 calc(20rem/64);
-    box-sizing: border-box;
-    margin-top: -2px;
-    padding-bottom: calc(40rem/64);
-    
-}
-.advertising-text-title{
-    overflow: hidden;
-    
-    padding: calc(20rem/64) 0;
-}
-.advertising-text-title div{
-    background-image: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/arrow_right.svg);
-    float: right;
-}
-.advertising-text-title h1{
-    height: 100px;
-    color: #000;
-    font-size: calc(45rem/64);
-    margin-bottom: calc(10rem/64);
-    float: left;
-}
-.advertising-text a{
-    color: #87878a;
-    font-size: calc(22rem/64);
-}
-    /* 4.底部 */
 
 .pay-one-biankuang {
     margin-top: calc(40rem/64);
-    margin-left: calc(20rem/64);
+    width: calc(590rem/64);
+    height: calc(70rem/64);
+    border: 1px solid #3388ff;
+    background-color: #3388ff;
+    text-align: center;
+}
+.pay-one-biankuang a {
+    font-size: calc(25rem/64);
+    line-height: calc(70rem/64);
+    color: #ffffff;
+}
+/* 3.在APP中体验 */
+.experience {
+    padding: 0 calc(20rem/64);
+    background-color: #f9f9f9;
+
+
+}
+.experience-one h1 {
+    padding-top: calc(50rem/64);
+    font-size: calc(35rem/64);
+}
+
+.experi-tu img{
+    margin-top: calc(30rem/64);
+    margin-left: calc(55rem/64);
+    width: calc(60rem/64);
+    height: calc(60rem/64);
+}
+.experi-tu img:nth-child(1) {
+    margin-left: calc(10rem/64);
+}
+
+.experi-tu-txt a {
+    margin-left:calc(25rem/64);
+    color: #7d7d7e;
+}
+.experi-tu-txt a:nth-child(1) {
+    margin-left:calc(5rem/64);
+
+}
+.experi-tu-txt{
+        margin-top: calc(10rem/64);
+}
+/* 4.结尾 */
+.pay-one-biankuang {
+    margin-top: calc(40rem/64);
+    /* margin-left: calc(20rem/64); */
     width: calc(590rem/64);
     height: calc(70rem/64);
     border: 1px solid #3388ff;

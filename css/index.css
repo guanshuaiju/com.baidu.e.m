@@ -426,9 +426,17 @@
     margin-left: calc(50rem/64);
     height: 70px;
     width:85px;
-    background: url(http://e.m.baidu.com/mebaidu/images/iconPhone.svg) no-repeat left top;
+    background: url(../image/dianhua.svg) no-repeat left top;
     background-size: 0.8rem;
 }
+/* .zhuce-kefu {
+    margin-top: calc(25rem/64);
+    margin-left: calc(50rem/64);
+    height: 70px;
+    width:85px;
+    background: url(../image/jingling.png) no-repeat left top;
+    background-size: 0.8rem;
+} */
 .zhuce-zixun a {
     font-size: calc(15rem/64);
 }

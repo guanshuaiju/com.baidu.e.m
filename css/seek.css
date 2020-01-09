@@ -1,0 +1,233 @@
+/* 1.顶部 */
+body {
+    background-color:#f7f8fa;
+}
+.top {
+    overflow: hidden;
+    z-index: 1;
+    position: fixed;
+    top: calc(0rem/64);
+    overflow: hidden;
+    height: calc(100rem/64);
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ececec;
+}
+.top-zuo{
+    float: left;
+    margin: calc(15rem/64) ;
+    overflow: hidden;
+}
+.top-you {
+    float: right;
+    margin: calc(20rem/64) ;
+}
+.top-you img {
+    height:calc(50rem/64) ;
+    width: calc(55rem/64);
+}
+/* 2.轮播 */
+.carousel {
+    background-color: #ffffff;
+    padding: calc(130rem/64) calc(20rem/64);
+   padding-bottom: 0;
+}
+.carousel-tu {
+    background: url(http://e.m.baidu.com/sites/all/themes/mebaidu2018/images/ggsearch.jpg) no-repeat;
+    width: calc(600rem/64);
+    height: calc(400rem/64);
+    border-radius: calc(10rem/64);
+    background-size: 100%;
+}
+.carousel h1 {
+    font-size: calc(40rem/64);
+}
+.carousel p {
+    font-size: calc(23rem/64);
+    margin-top: calc(40rem/64);
+}
+/* 免费注册 */
+.pay-one-biankuang {
+    margin-top: calc(40rem/64);
+    width: calc(590rem/64);
+    height: calc(70rem/64);
+    border: 1px solid #3388ff;
+    background-color: #3388ff;
+    text-align: center;
+}
+
+.pay-one-biankuang a {
+    line-height: calc(70rem/64);
+    color: #ffffff;
+
+}
+.one {
+    margin-left: calc(20rem/64);
+}
+
+/* 3.扩大销售 */
+.market {
+    margin-top: calc(30rem/64);
+    padding:0 calc(20rem/64);
+    background-color: #ffffff;
+}
+.market-one span{
+    margin-left: calc(20rem/64);
+    font-size: calc(23rem/64);
+}
+.market-one span:nth-child(1) {
+    color: #719efc;
+    padding-bottom: calc(10rem/64);
+    border-bottom: 1px solid #719efc;
+}
+.market-two h1 {
+  font-size: calc(40rem/64);
+  margin-top: calc(70rem/64);
+}
+.market-two p {
+    font-size: calc(23rem/64);
+    margin-top: calc(30rem/64);
+}
+.market-two img {
+    width: calc(600rem/64);
+    margin-top: calc(40rem/64);
+}
+ .er {
+     overflow: hidden;
+    background-color: #f9f9f9;
+}
+.market-liaojie {
+    float: right;
+    color: black;
+    margin:calc(25rem/64) 0;
+}
+.market-liaojie a {
+    color: black;
+    margin-right: calc(10rem/64);
+}
+ 
+/* 4.线索通 */
+.thread {
+    padding: 0 calc(50rem/64);
+    padding-top: calc(30rem/64);
+    background-color: #ffffff;
+}
+.thread h1 {
+    font-size: calc(30rem/64);
+}
+
+.thread p {
+    padding: calc(30rem/64) 0;
+}
+/* .thred-one-tubiao */
+.thred-one-tubiao img{
+    vertical-align: middle;
+    width: calc(40rem/64);
+}
+.thred-one-tubiao span {
+    font-size: calc(30rem/64);
+}
+.thred-two img {
+    margin-top: calc(40rem/64);
+    background: #FFFFFF;
+    box-shadow: 0 5px 20px 0 rgba(39,43,157,0.17);
+    border-radius: 6px;
+    padding: 16px;
+    width: calc(500rem/64);
+    margin-bottom: 20px;
+}
+
+.thred-txt span {
+    margin-top: calc(60rem/64);
+    margin-right: calc(10rem/64);
+    float: right;
+}
+.thred-zhuce {
+    margin-top: calc(140rem/64);
+    margin-bottom: calc(100rem/64);
+    height: calc(70rem/64);
+    border: 1px solid #3388ff;
+    background-color: #3388ff;
+    text-align: center;
+}
+.thred-zhuce a {
+    color: #ffffff;
+    line-height: calc(70rem/64);
+}
+
+
+.jiewei {
+    padding: 0 calc(20rem/64);
+    text-align: center;
+    height: calc(220rem/64);
+    background-color: black;
+    
+}
+.jiewei p {
+    line-height: calc(30rem/64);
+    margin-top: calc(40rem/64);
+    padding-top: calc(50rem/64);
+    font-size: calc(20rem/64);
+    color: #7f7f7f;
+}
+
+/* 返回顶部 */
+.dibu {
+    float: left;
+}
+
+.dibu-ding {
+    margin-top: calc(10rem/64);
+    margin-left: calc(25rem/64);
+    width: calc(140rem/64);
+    height: calc(50rem/64);
+    background: url(../image/jiantou.svg) no-repeat;
+    background-position: calc(7rem/64) calc(-2rem/64);
+    background-size:0.8rem ;
+}
+
+.dibu-zixun {
+    float: left;
+    margin-top: calc(10rem/64);
+    width: calc(140rem/64);
+    height: calc(50rem/64);
+    background: url(../image/dianhua.svg) no-repeat;
+    background-position: calc(7rem/64) calc(-2rem/64);
+    background-size:0.8rem ;
+}
+.dibu-zixun a, .dibu-kefu a ,.dibu-ding a {
+    color: #666666;
+    float: left;
+    margin-top: calc(40rem/64);
+}
+.dibu-kefu {
+    float: left;
+    width: calc(140rem/64);
+    height: calc(50rem/64);
+    margin-top: calc(10rem/64);
+    background: url(../image/jingling.png) no-repeat;
+    background-position: calc(7rem/64) calc(-2rem/64);
+    background-size:0.5rem ;
+}
+
+.dibu-mianfei {
+    float: right;
+    background-color: #3388ff;
+    height: calc(85rem/64);
+    width: calc(191rem/64);
+    border: 1px solid #3388ff;
+}
+.dibu-mianfei a {
+    color: #ffffff;
+   line-height: calc(85rem/64);
+   margin-left: calc(50rem/64);
+}
+
+.dibu-anniu {
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    height: calc(50rem/64);
+    position: fixed;
+    bottom: calc(0rem/64);
+    left: calc(0rem/64);
+}

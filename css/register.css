@@ -1,0 +1,94 @@
+/* 1.顶部 */
+body {
+    height: calc(1030rem/64);
+    background-color:#f7f8fa;
+}
+.top {
+    z-index: 1;
+    position: fixed;
+    top: calc(0rem/64);
+    overflow: hidden;
+    height: calc(100rem/64);
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ececec;
+}
+.top-zuo{
+    float: left;
+    margin: calc(15rem/64) ;
+    overflow: hidden;
+}
+.top-you {
+    float: right;
+    margin: calc(20rem/64) ;
+}
+.top-you img {
+    height:calc(50rem/64) ;
+    width: calc(55rem/64);
+}
+/* 2.相关咨询 */
+.register-jieshao {
+    padding: 0 calc(20rem/64);
+}
+.register-jieshao h1 {
+    padding-top: calc(40rem/64);
+    margin-top: calc(105rem/64);
+    font-size: calc(40rem/64);
+}
+
+.register-jieshao img {
+    padding-top: calc(20rem/64);
+
+}
+/* 3.注册表 */
+.register-zhuce {
+    overflow: hidden;
+    padding: 0 calc(20rem/64);
+    
+}
+.register-zhuce {
+    padding-bottom: calc(40rem/64);
+}
+.register-zhuce input {
+    float: left;
+    width: calc(412rem/64);
+    height: calc(51rem/64);
+    margin-left: 30px;
+    border: 1px solid #E7E7E7;
+}
+.register-zhuce span {
+    margin-top: calc(10rem/64);
+    float: left;
+}
+.register-zhuce b {
+    float: left;
+    color: red;
+    font-size: calc(25rem/64);
+    margin-top: calc(10rem/64);
+}
+.one input {
+    padding-left: calc(20rem/64);
+    width: calc(200rem/64);
+}
+.one  img {
+    width: calc(15rem/64);
+    height: calc(10rem/64);
+    position: relative;
+    top: calc(10rem/64);
+    left: calc(-30rem/64);
+}
+
+.pay-one-biankuang {
+    margin: 0 calc(20rem/64);
+    margin-top: calc(40rem/64);
+    width: calc(590rem/64);
+    height: calc(70rem/64);
+    border: 1px solid #3388ff;
+    background-color: #3388ff;
+    text-align: center;
+}
+.pay-one-biankuang a {
+    font-size: calc(25rem/64);
+    line-height: calc(70rem/64);
+    color: #ffffff;
+}
